@@ -1,0 +1,4 @@
+C:\Current Projects\WS\LV32.2020.HDH.Driver.DMM\DMM\DMM.lvproj	HDH.Driver.DMM	Parent of the DMM driver hierarchy
+C:\Current Projects\WS\LV32.2020.HDH.Driver.DMM\Message\DMM Msg.lvproj	HDH.Actor Framework.Msg.DMM	HDH Actor Framework DMM message implementation
+C:\Current Projects\WS\LV32.2020.HDH.Driver.DMM\DMM.NI\NI DMM Driver.lvproj	HDH.Driver.DMM.NI	NI DMM implementation of the DMM driver
+C:\Current Projects\WS\LV32.2020.HDH.Driver.DMM\Test\Test_DMM.lvproj		Test project for the NI DMM source

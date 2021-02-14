@@ -10,7 +10,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="NI DMM Driver.lvlib" Type="Library" URL="../NI DMM Driver.lvlib"/>
+		<Item Name="Config and Read.vi" Type="VI" URL="../Config and Read.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="niDMM ADC Calibration.ctl" Type="VI" URL="/&lt;instrlib&gt;/niDMM/nidmm.llb/niDMM ADC Calibration.ctl"/>
@@ -105,56 +105,11 @@
 				</Item>
 				<Item Name="DMM Driver.lvclass" Type="LVClass" URL="../../../PPL/HDH.Driver.DMM.lvlibp/DMM Driver.lvclass"/>
 			</Item>
+			<Item Name="NI DMM Driver.lvlib" Type="Library" URL="../../DMM.NI/NI DMM Driver.lvlib"/>
 			<Item Name="nidmm_32.dll" Type="Document" URL="nidmm_32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
-		<Item Name="Build Specifications" Type="Build">
-			<Item Name="HDH.Driver.DMM.NI" Type="Packed Library">
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{7E40E8E4-2E4F-474F-9103-C82BBEF34D71}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">HDH.Driver.DMM.NI</Property>
-				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Current projects/WS/PPL</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{658B8245-C0D9-4BBD-8CC2-26AEE5DB7E71}</Property>
-				<Property Name="Bld_version.build" Type="Int">10</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">HDH.Driver.DMM.NI.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Current projects/WS/PPL/HDH.Driver.DMM.NI.lvlibp</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Current projects/WS/PPL</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].Container.applyPrefix" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6236DE58-AA88-481B-BEE8-90EB4C53B271}</Property>
-				<Property Name="Source[0].newName" Type="Str">HDH.Driver.DMM.NI_</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/NI DMM Driver.lvlib</Property>
-				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
-				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
-				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">HDH.Driver.DMM.NI</Property>
-				<Property Name="TgtF_internalName" Type="Str">HDH.Driver.DMM.NI</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2017 </Property>
-				<Property Name="TgtF_productName" Type="Str">HDH.Driver.DMM.NI</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{24CD138D-7A96-4B5A-96C8-411B2B4B6CCE}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">HDH.Driver.DMM.NI.lvlibp</Property>
-				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
-			</Item>
-		</Item>
+		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>
