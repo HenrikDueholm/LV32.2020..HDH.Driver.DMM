@@ -40,7 +40,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applyPrefix" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B28DDA5C-949D-4B65-9548-F504368F2FBF}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{697FB48F-7E6F-4399-9E97-776E10A0FA18}</Property>
 				<Property Name="Source[0].newName" Type="Str">HDH.Driver.DMM_</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
@@ -52,11 +52,10 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_companyName" Type="Str">Danfoss</Property>
 				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">HDH.Driver.DMM</Property>
 				<Property Name="TgtF_internalName" Type="Str">HDH.Driver.DMM</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 Danfoss</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 HenrikDueholm</Property>
 				<Property Name="TgtF_productName" Type="Str">HDH.Driver.DMM</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{1FF1DEA0-C65C-47DF-BB6C-6A5B31139006}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">HDH.Driver.DMM.lvlibp</Property>

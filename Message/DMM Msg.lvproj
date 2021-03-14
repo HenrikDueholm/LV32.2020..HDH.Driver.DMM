@@ -456,7 +456,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applyPrefix" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B1AED5C1-E5E9-43FD-93A3-503ED566CE69}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{174BA146-6358-43AB-B714-9B3F1C748B4D}</Property>
 				<Property Name="Source[0].newName" Type="Str">HDH.Actor Framework.Msg.DMM_</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
@@ -471,7 +471,7 @@
 				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">HDH.Actor Framework.Msg.DMM</Property>
 				<Property Name="TgtF_internalName" Type="Str">HDH.Actor Framework.Msg.DMM</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2017 </Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 HenrikDueholm</Property>
 				<Property Name="TgtF_productName" Type="Str">HDH.Actor Framework.Msg.DMM</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{72B1AE35-52C7-40B8-A4EA-FAC6978527BD}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">HDH.Actor Framework.Msg.DMM.lvlibp</Property>
